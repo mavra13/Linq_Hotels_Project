@@ -1,0 +1,8 @@
+{
+	"database": {
+		"host": "your.database.domain.com",
+		"dbname": "theDatabaseName",
+		"username": "theDatabaseUsername",
+		"password": "theDatabasePassword"
+	}
+}
