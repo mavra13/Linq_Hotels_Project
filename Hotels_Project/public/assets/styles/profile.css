@@ -1,0 +1,129 @@
+/* Page Generic */
+
+.bodyContainer {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.mainContainer {
+    width: 1005px;
+    margin: 0px auto 35px;
+}
+
+/* Main Section */
+
+.mainSection {
+    display: inline-grid;
+    box-sizing: border-box;
+    width: 725px;
+    padding: 25px;
+}
+
+.mainSection::after {
+    content: "";
+    position: relative;
+    left: 0;
+    /* bottom: -25px; */
+    height: 1px;
+    width: 675px;
+    border-bottom: 1px dashed gray;
+}
+
+.pageHeading {
+    /* background-color: #D9582C; */
+    background-color: #043170;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    height: 25px;
+}
+
+.roomInfo {
+    margin-bottom: 30px;
+}
+
+.roomImageListView {
+    width: 100px;
+    height: 100px;
+    /* margin-top: 24px; */
+    margin-right: 16px;
+}
+
+.roomDetails {
+    /* border-left: 2px solid #D9582C; */
+    border-left: 2px solid #043170;
+    padding-left: 16px;
+    /* margin-top: 24px; */
+
+}
+
+.roomTitle {
+    margin: 0px;
+}
+
+.roomAddress {
+    color: #c1c1c1;
+}
+
+.roomAddress,
+.roomSmallDescription {
+    margin: 0px 0px 8px 0px;
+}
+
+.custom-btn {
+    height: 25px;
+    padding-inline: 10px;
+}
+
+.roomInfoFooter {
+    height: 25px;
+    margin-top: 24px;
+}
+
+.roomPrice {
+    width: 100px;
+    background-color: #757575;
+    color: #ffffff;
+    padding: 4px 0px;
+    margin-bottom: 0px;
+    margin: 0px 16px 0px 0px;
+}
+
+.roomFooterRightSection {
+    width: calc(100% - 116px);
+    height: 17px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #f4f4f4;
+    color: #757575;
+}
+
+.favouritesList,
+.reviewsList {
+    line-height: 1;
+}
+
+.favouritesList li,
+.reviewsList li {
+    margin-bottom: 20px;
+}
+
+.favouritesList li::marker,
+.reviewsList li::marker {
+    font-size: 24px;
+}
+
+.favouritesList li:hover,
+.reviewsList li:hover
+{
+	cursor: pointer;
+}
+
+.reviewsList li .checked {
+    /* color: #F2A93B; */
+    color: #FFBF00;
+}

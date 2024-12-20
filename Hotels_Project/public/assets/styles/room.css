@@ -1,0 +1,147 @@
+.mainContainer {
+    width: 1005px;
+    margin: 0px auto 35px;
+}
+
+.pageHeadingShell {
+    background-color: #043170;
+    border-radius: 3px;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    height: 25px;
+}
+
+.pageHeadingContent {
+    font-size: 18px;
+    font-weight: 400;
+    margin: unset;
+}
+
+.pageHeadingIconsContent {
+    width: calc(100% * 1 / 5);
+}
+
+.secondaryHeadingIcons p.pageHeadingIconsContent:not(:last-child) {
+    border-right: 1px dashed #ffffff;
+}
+
+.decorativeLeftBorder {
+    /* border-left: 2px solid #D9582C; */
+    border-left: 2px solid #043170;
+    padding-left: 5px;
+    /* margin-top: 24px; */
+
+}
+
+.secondaryTitles {
+    margin: 0px;
+}
+
+.custom-btn {
+    height: 25px;
+    padding-inline: 10px;
+}
+
+.mapSection {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px dashed gray;
+}
+
+.dateTimeAdded,
+.comment {
+    font-size: 12px;
+}
+
+.reviewsList {
+    padding-left: 22px;
+}
+
+ol.reviewsList li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.reviewTextArea {
+    width: calc(100% - 6px);
+}
+
+.customSubmitReview-btn {
+    height: 46px;
+    width: 80px;
+}
+
+.lightGrayColor {
+    color: #c1c1c1;
+}
+
+.checked {
+    color: #FFBF00;
+}
+
+.ratingAvg span.fa-star {
+	position: relative;
+}
+
+span.half {
+	position: absolute;
+	left: 0;
+	top:50%;
+	transform: translateY(-9px);
+}
+
+.loved {
+    color: #dc143d;
+}
+
+.starsRateContainer {
+	cursor: default;
+}
+
+.starsRateContainer:hover > span.fa-star:before {
+    color: #FFBF00;
+}
+
+.starsRateContainer > span.fa-star:hover ~ span.fa-star:before {
+    color: #c1c1c1;
+}
+
+#popupDialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    width: 400px;
+    height: 200px;
+    align-content: space-evenly;
+    text-align: center;
+}
+
+#popupDialog .custom-btn {
+    height: 35px;
+    width: 100%;
+    margin-block: 16px;
+}
+
+.closeBtn {
+    position: absolute;
+    right: -2.5%;
+    top: -4.5%;
+    font-size: 15px;
+    border-radius: 50%;
+    border-color: white;
+    border: 1px solid grey;
+    background-color: white;
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+    line-height: 0;
+}

@@ -1,0 +1,35 @@
+/* Page Generic */
+
+.bodyContainer {
+    height: 100vh;
+	background: no-repeat center /100% url("../images/Luxurious-Hotel_Entrance.jpeg");
+	background-size: 100vw 100vh;
+}
+.bodyContainer.homePage {
+	background-image: url("../images/Burj-Al-Arab-Dubai-Main.jpg");
+}
+/* Form Section */
+.homePage .searchForm {
+    margin: 10% 0 0 0;
+}
+.searchForm, .registerForm, .loginForm {
+    width: 440px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin: 10% 0 0 10%;
+}
+.formHeading {
+    padding: 0px;
+    margin: 0px;
+}
+.formRow {
+    margin: 16px 48px;
+}
+
+.custom-btn {
+    height: 46px;
+    width: 80px;
+}
+
+
